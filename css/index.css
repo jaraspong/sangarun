@@ -1,0 +1,7 @@
+.carousel{
+	min-height: 100px;
+}
+.carousel .item {
+
+	display: block;
+}
