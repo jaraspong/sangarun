@@ -1,7 +1,23 @@
 .carousel{
 	min-height: 100px;
+	margin: 0 auto;
+	width: 690px;
 }
 .carousel .item {
-
 	display: block;
+}
+.red{
+	background-color: red;
+}
+.yellow{
+	background-color: yellow;
+}
+.header{
+	height: 150px;
+}
+.left-menu{
+	min-height: 350px;
+}
+.divider{
+	min-width: 960px;
 }
