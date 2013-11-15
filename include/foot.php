@@ -2,15 +2,14 @@
 	<div class="container">
 		<div id="footermenu">
 		<ul class="navbar">
-			<li class="nav"><a href="index.php">HOME</a></li>
-			<li class="nav"><a href="company.php">COMPANY</a></li>
-			<li class="nav"><a href="products.php">PRODUCT</a></li>
-			<li class="nav"><a href="certificate.php">CERTIFICATE/AWARDS</a></li>
-			<li class="nav"><a href="news.php">NEW & EVENT</a></li>
-			<li class="nav"><a href="careers.php">CAREERS</a></li>
-			<li class="nav"><a href="contact.php">CONTACT</a></li>
+			<li class="nav"><a href="index.php">หน้าแรก</a></li>
+			<li class="nav"><a href="company.php">สินค้า / ผลิตภัณฑ์</a></li>
+			<li class="nav"><a href="products.php">วิธีการสั่งซื้อ</a></li>
+			<li class="nav"><a href="news.php">เงื่อนไขการคืนสินค้า</a></li>
+			<li class="nav"><a href="certificate.php">โปรโมชั่น & อีเวนท์</a></li>
+			<li class="nav"><a href="contact.php">ติดต่อเรา</a></li>
 		</ul>	
-		<div class="copyright">Copy right Poly Plastic Thailand 2013</span>
+		<div class="copyright">Copy right Speed Home 2013</span>
 		</div>
 	</div>
 </footer>

@@ -1,23 +1,224 @@
+/*
+* Fix legacy IE transparent
+*/
+.ie-fix-transparent {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+}
+
+/*
+* Header Css
+*/
+/*
+* Accordion Menu
+*/
 .carousel{
 	min-height: 100px;
 	margin: 0 auto;
 	width: 690px;
+	padding: 10px 30px 14px 20px;
 }
 .carousel .item {
 	display: block;
 }
+.products-grid li.item .products-new, .products-list li.item .products-new, .products-new, .product-view .product-img-box .products-new{
+	background: url("../images/new.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.products-grid li.item .products-sale, .products-list li.item .products-sale, .products-sale, .product-view .product-img-box .products-sale{
+	background: url("../images/sale.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 54px;
+    margin: -6px 0 0 -6px;
+    position: absolute;
+    text-indent: -3000px;
+    width: 54px;
+    z-index: 98;
+}
+
 .red{
 	background-color: red;
 }
 .yellow{
-	background-color: yellow;
+	border: 1px solid blue;
 }
 .header{
 	height: 150px;
 }
-.left-menu{
-	min-height: 350px;
-}
 .divider{
-	min-width: 960px;
+	width: 98%;
+}
+.carousel .jcarousel-prev {
+	left: -25px;
+}
+.carousel .jcarousel-next {
+    right: -35px;
+}
+div.logo{
+	padding-top:20px;
+}
+#mainmenu a:hover,#selectLandguage a:hover,#footermenu a:hover{
+	text-decoration: none;
+}
+ul#mainmenu{
+	color: #000;
+	font-weight:bold;
+	padding-top:20px;
+}
+ul#mainmenu li{
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 6px;
+	margin-bottom: 0;
+	padding: 4px 4px;
+	text-align: center;
+	vertical-align: middle;
+	border-width: 2px;
+	border-radius: 4px 4px 4px 4px;
+	border-style: solid;
+	border-color: #ffffff;
+	padding-right: 15px;
+	border-right: 1px solid #2B2E6F;
+}
+ul#mainmenu li:last-child{
+	border-right: none;
+}
+ul#mainmenu li:hover{
+	color: #c71f25;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/*
+* Language menu
+*/
+#selectLandguage{
+	float: right;
+	padding-top:5px;
+}
+#selectLandguage a.active{
+	color: orange;
+}
+#selectLandguage a:hover{
+	cursor: pointer;
+	color: blue;
+}
+/*
+* Topbar
+*/
+.container,.row{
+	background: transparent;
+}
+#topbar{
+  	z-index: 99999;
+  	min-height: 50px;
+  	padding: 0px;
+  	margin: 0px;
+  	width: 250px;
+  	border-right: 1px solid #9a9a9a;
+  	border-left: 1px solid #9a9a9a;
+  	background: url('../images/lll.png') transparent 10px 15px no-repeat;
+}
+.category-text{
+	margin-left: 40px;
+	margin-top: 15px;
+	font-size: 1.3em;
+	color: #fefefe;
+	font-weight: normal;
+}
+
+.keyvisual-wrapper{
+	min-height: 50px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	z-index: 999;
+	background: url('../images/topbar_bg.png');
+}
+.navbar-search .search-query{
+	background-color: #FFFFFF;
+	color: #9a9a9a;
+}
+#searchfields input,#searchfields select{
+	border-radius: 5px;
+	margin-top: 5px;
+}
+#searchfields button{
+	margin-top: -5px;
+}
+/*
+* Promotion block
+*/
+.promotion-block,.recommended-block{
+	min-height: 320px;
+}
+.promotion-block,.recommended-block{
+	padding-top: 15px;
+}
+.promotion-title,.recommended-title {
+	font-size: 1.5em;
+}
+/*
+* Recommended block
+*/
+.recommended-items{
+	padding: 5px 0;
+	min-height: 300px;
+
+}
+.recommended-items ul {
+	margin-left: 15px;
+}
+.recommended-items ul li{
+	float: left;
+    list-style: none outside none;
+}
+
+.recommended-items .item{
+	margin-left: 16px;
+	margin-bottom: 10px;
+	width: 156px;
+	min-height: 150px;
+}
+/*
+* Footer CSS
+*/
+footer{
+	min-height: 90px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	z-index: 999;
+	background: url('../images/footer_bg.png');
+}
+footer div.container{
+	background: transparent;
+}
+#footermenu div{
+	padding-top: 10px;
+  width: 200px;
+}
+#footermenu ul{
+  padding-top: 15px;
+  width: 540px;
+}
+#footermenu div,#footermenu ul{
+  margin: 10px auto 5px auto;
+  height:20px;
+  font-size: 0.8em;
+}
+.copyright{
+	padding: 0;
+	float: none;
+}
+#footermenu ul li a{
+	color: #ffffff;
+}
+#footermenu ul li a:hover{
+	color: #FCCA4C;
+}
+#footermenu li{
+  padding-right: 10px;
+  border-right: 1px solid #2B2E6F;
+}
+
+#footermenu li:last-child{
+	border: none;
 }
